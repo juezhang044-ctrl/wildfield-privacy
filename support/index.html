@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《野外收藏册》用户支持页面，提供常见问题、联系邮箱和隐私政策入口。">
+  <link rel="canonical" href="https://juezhang044-ctrl.github.io/wildfield-privacy/support/">
+  <title>野外收藏册 - 支持</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f3f7f1;
+      --surface: #ffffff;
+      --surface-soft: #edf5ee;
+      --text: #1f2a22;
+      --muted: #617066;
+      --accent: #2f6945;
+      --accent-strong: #245437;
+      --border: #dbe6dc;
+      --shadow: 0 16px 40px rgb(38 79 52 / 8%);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--accent-strong);
+    }
+
+    a:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid rgb(47 105 69 / 28%);
+      outline-offset: 3px;
+      border-radius: 6px;
+    }
+
+    .page {
+      width: min(100% - 24px, 760px);
+      margin: 20px auto;
+    }
+
+    header,
+    main {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    header {
+      padding: 30px 22px;
+      background:
+        radial-gradient(circle at top right, rgb(193 255 199 / 58%), transparent 42%),
+        var(--surface);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.35;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 8vw, 2.5rem);
+    }
+
+    .intro {
+      margin: 14px 0 0;
+      color: var(--muted);
+    }
+
+    main {
+      margin-top: 14px;
+      padding: 8px 22px 30px;
+    }
+
+    section {
+      padding-top: 24px;
+    }
+
+    section + section {
+      margin-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .contact-box {
+      margin-top: 14px;
+      padding: 16px;
+      background: var(--surface-soft);
+      border-radius: 12px;
+    }
+
+    .contact-box strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    details {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+    }
+
+    summary {
+      padding: 14px 16px;
+      color: var(--text);
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    details p {
+      margin: 0;
+      padding: 0 16px 16px;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 24px 12px 30px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer p {
+      margin: 4px 0;
+    }
+
+    @media (min-width: 640px) {
+      .page {
+        margin: 40px auto;
+      }
+
+      header {
+        padding: 44px 48px;
+      }
+
+      main {
+        padding: 14px 48px 44px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow">WILDFIELD SUPPORT</p>
+      <h1>野外收藏册 - 支持</h1>
+      <p class="intro">这是《野外收藏册》的用户支持页面。如遇到植物识别、相机权限、步数奖励或收藏相关问题，欢迎通过邮箱联系我们。</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">联系方式</h2>
+        <div class="contact-box">
+          <strong>联系邮箱</strong>
+          <a href="mailto:mu4210@126.com">mu4210@126.com</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="faq-title">
+        <h2 id="faq-title">常见问题</h2>
+        <div class="faq-list">
+          <details>
+            <summary>为什么植物识别成功后没有生成卡片？</summary>
+            <p>可能识别到了不在当前收藏库中的植物，或识别置信度不足。</p>
+          </details>
+
+          <details>
+            <summary>为什么无法使用相机？</summary>
+            <p>请在 iPhone 系统设置中确认已允许《野外收藏册》使用相机。</p>
+          </details>
+
+          <details>
+            <summary>为什么没有步数奖励？</summary>
+            <p>请确认已允许“运动与健身”权限，并达到对应步数档位。</p>
+          </details>
+
+          <details>
+            <summary>我的照片会如何使用？</summary>
+            <p>拍摄的植物照片会用于植物识别；详细数据处理方式请查看隐私政策。</p>
+          </details>
+
+          <details>
+            <summary>App 是否需要账号？</summary>
+            <p>当前版本无需注册或登录。</p>
+          </details>
+        </div>
+      </section>
+
+      <section aria-labelledby="privacy-title">
+        <h2 id="privacy-title">隐私政策</h2>
+        <p>有关植物照片、步数和本地数据的处理方式，请阅读《野外收藏册》隐私政策。</p>
+        <p><a href="https://juezhang044-ctrl.github.io/wildfield-privacy/">查看隐私政策</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 章珏</p>
+      <p><a href="mailto:mu4210@126.com">mu4210@126.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
